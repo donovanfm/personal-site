@@ -1,0 +1,35 @@
+.home{
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	& * {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	div {
+		text-align: center;
+	}
+	margin-top: 50px;
+	img.face {
+		display: block;
+		border-radius: 50%;
+		max-width: 250px;
+		margin-bottom: 45px;
+		opacity: 0.75;
+	}
+	a {
+		text-decoration: none;
+		color: #555555;
+		font-size: 20px;
+		&:hover {
+			font-size: 21px;
+		}
+	}
+	label {
+		color: #555555;
+	}
+	.contact-info {
+		margin-top: 30px;
+	}
+
+}
