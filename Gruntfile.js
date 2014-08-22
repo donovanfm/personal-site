@@ -14,6 +14,8 @@ module.exports = function (grunt) {
   // Load all Grunt tasks
   require('load-grunt-tasks')(grunt);
 
+  grunt.loadNpmTasks('grunt-build-control');
+
   grunt.initConfig({
     // Configurable paths
     yeoman: {
@@ -320,7 +322,15 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
-    }
+    },
+    buildcontrol: {
+      pages: {
+        options: {
+          remote: 'git@github.com:dfmcmurray/personal-site.git',
+          branch: 'gh-pages'
+        }
+      },
+    },
   });
 
   // Define Tasks
@@ -372,7 +382,8 @@ module.exports = function (grunt) {
     'svgmin',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'buildcontrol:pages'
     ]);
 
   grunt.registerTask('default', [
