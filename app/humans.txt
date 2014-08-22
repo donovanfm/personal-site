@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Donovan McMurray -- developer -- @dfmcmurray
 
 # THANKS
 
