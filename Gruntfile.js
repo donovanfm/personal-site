@@ -326,6 +326,8 @@ module.exports = function (grunt) {
     buildcontrol: {
       pages: {
         options: {
+          commit : true,
+          push : true,
           remote: 'git@github.com:dfmcmurray/personal-site.git',
           branch: 'gh-pages'
         }
