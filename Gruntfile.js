@@ -381,11 +381,17 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin',
     'uglify',
-    'imagemin',
+    // 'newer:imagemin',
     'svgmin',
     'filerev',
     'usemin',
-    'htmlmin',
+    'htmlmin'
+    ]);
+
+  grunt.registerTask('deploy', [
+    'check',
+    'test',
+    'build',
     'buildcontrol:pages'
     ]);
 
