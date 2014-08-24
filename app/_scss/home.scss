@@ -37,15 +37,24 @@
 	display: block;
 }
 
-.home label a {
-	font-size: 1em;
-}
-
-.home label a:hover {
-	font-size: 1em;
-}
-
 .home .contact-info {
 	margin-top: 30px;
 	margin-bottom: 20px;
+}
+
+.home .contact-info a {
+	font-size: 1em;
+}
+
+.home .contact-info a:hover {
+	font-size: 1em;
+}
+
+.home .icons > a {
+	margin: 0px 10px;
+	font-size: 2em;
+}
+
+.home .icons > a:hover {
+	font-size: 2em;
 }
