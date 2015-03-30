@@ -14,12 +14,29 @@
 	text-align: center;
 }
 
-.home img.face {
-	display: block;
-	border-radius: 50%;
-	max-width: 250px;
+.home {
+	img.cover {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 350px;
+		z-index: -1000;
+	}
+	img.face {
+		display: block;
+		border-radius: 50%;
+		max-width: 250px;
+		margin-top: 220px;
+	}
+}
+
+.home label.name {
+	color: #294DEA;
+	font-size: 28px;
+	text-align: center;
+	font-family: Roboto, Helvetica, san-serif;
 	margin-bottom: 45px;
-	opacity: 0.75;
 }
 
 .home a {
