@@ -14,21 +14,20 @@
 	text-align: center;
 }
 
-.home {
-	img.cover {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 350px;
-		z-index: -1000;
-	}
-	img.face {
-		display: block;
-		border-radius: 50%;
-		max-width: 250px;
-		margin-top: 220px;
-	}
+.home img.cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 350px;
+	z-index: -1000;
+}
+
+.home img.face {
+	display: block;
+	border-radius: 50%;
+	max-width: 250px;
+	margin-top: 220px;
 }
 
 .home label.name {
