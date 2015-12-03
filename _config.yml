@@ -20,11 +20,9 @@ future: true
 show_drafts: true
 
 permalink: date
-paginate: 0
+paginate: null
 paginate_path: 'page:num'
 
 # Markdown library
 markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
-
-pygments: true
